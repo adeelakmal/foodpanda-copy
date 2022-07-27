@@ -30,7 +30,7 @@ code {
 
 .citiesMargin {
   margin: 60px!important;
-  left: 10px;
+  left: 10px; 
 }
 
 .fontCities {
@@ -42,4 +42,65 @@ code {
   top: 70px!important;
   left: 53px;     
   font-size: 27px;
+}
+
+.chef {
+  position: relative;
+  top: 120px;
+}
+
+.texty {
+  position: relative;
+  bottom: 420px;
+  left: 60px;
+}
+
+.section {
+  background-color: white;
+  padding: 25px;
+  width: 800px;
+  height: 350px;
+  max-width: 37%;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.heading {
+  font-size: 24px;
+}
+
+.para {
+  font-size: 16px "Open Sans",Arial,sans-serif;
+  color: #707070;
+  margin: 16px 0px 24px;
+  padding: 12px 0x 0x;
+}
+
+.buttonGetstarted {
+  position: relative;
+  left: 55%;
+  color: rgb(255, 255, 255);
+  background-color: red;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+}
+.buttonGetstarted:hover {
+  background-color: rgb(187, 0, 0);
+  transition-duration: 0.5s;
+}
+
+.section {
+  position: absolute;
+  top: 900px;
+  left: 150px;
+}
+
+.photoWithText {
+  position: relative;
 }

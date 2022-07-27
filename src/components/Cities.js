@@ -5,10 +5,10 @@ function Cities() {
   return (
     <>
       <div className="relative  citiesMargin">
-        <h2 className=" absolute top-0 font-Open font-bold text-gray-300/25 px-12 fontCities">
+        <h2 className="absolute top-0 font-Open font-bold text-gray-300/25 px-12 fontCities">
           Cities
         </h2>
-        <span className="text-lg font-light leading-big ManyMore">
+        <span className="text-lg font-light leading-big ManyMore"> {/*many more has relative*/}
           Find us in these cities and many more!
         </span>
         {/* get the city names and pictures that have already been stored in a database use mongo probably */}

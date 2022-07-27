@@ -3,6 +3,7 @@ import Alertbox from "./components/Alertbox";
 import Navbar from "./components/Navbar";
 import Section from "./components/Section";
 import Cities from "./components/Cities";
+import AboveCity from "./AboveCity";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Alertbox />
       <Navbar />
       <Section />
+      <AboveCity/>
       <Cities />
     </>
   );
