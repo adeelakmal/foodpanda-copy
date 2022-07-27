@@ -10,7 +10,7 @@ function Section() {
   position: absolute;
   margin: 0;
   margin-left: 67%;
-  max-height: 544px;
+  max-height: 615px;
     }
     .hero-sec{
         width: 100%;

@@ -17,3 +17,29 @@ code {
     monospace;
 }
 
+.pp {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    height: 100%;
+    position: relative;
+    min-width: 230px;
+    min-height: 250px;
+}
+
+.citiesMargin {
+  margin: 60px!important;
+  left: 10px;
+}
+
+.fontCities {
+  font-size: 150px!important;
+}
+
+.ManyMore {
+  position: relative!important;
+  top: 70px!important;
+  left: 53px;     
+  font-size: 27px;
+}
