@@ -13,7 +13,7 @@ export default function AboveCity() {
             <div className='absolute top-0 font-Open font-bold text-gray-300/25 px-12 fontCities'>Partners</div>
         </div>
     </div>
-    <div className='section'>
+    <div className='section container mx-auto'>
         <h1 className='heading'>
             List your fucking restaurant or shop on foodpanda
         </h1>
@@ -27,8 +27,9 @@ export default function AboveCity() {
             <p>
             Interested? Let's start our partnership today!
             </p>
+            <button className = "buttonGetstarted" type="button">Get Started</button>
         </section>
-        <button className = "buttonGetstarted" type="button">Get Started</button>
+        
     </div>
     </>
     )
