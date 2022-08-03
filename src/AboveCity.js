@@ -5,17 +5,17 @@ export default function AboveCity() {
   return (
     <>
     <div className='photoWithText'>
-        <figure className='absolute top-5 z-0 chef'>
+        <figure className='absolute top-5 chef'>
             <img className="h-96 w-full object-cover" src={chef} alt="Laor"/>
         </figure>
-        <div className='z-50 CitiesMargin texty'>
+        <div className='relative m-[60px] left-[10px] bottom-[460px]'>
             <div className='text-lg font-light leading-big ManyMore'>You prepare the food, we handle the rest</div>
             <div className='absolute top-0 font-Open font-bold text-gray-300/25 px-12 fontCities'>Partners</div>
         </div>
     </div>
     <div className='section container mx-auto'>
         <h1 className='heading'>
-            List your fucking restaurant or shop on foodpanda
+            List your restaurant or shop on foodpanda
         </h1>
         <section className='para'>
             <p>

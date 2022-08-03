@@ -17,21 +17,13 @@ code {
     monospace;
 }
 
-.pp {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: block;
-    height: 100%;
-    position: relative;
-    min-width: 230px;
-    min-height: 250px;
+.citiesHover:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+
 }
 
-.citiesMargin {
-  margin: 60px!important;
-  left: 10px; 
-}
+
 
 .fontCities {
   font-size: 150px!important;
@@ -58,7 +50,7 @@ code {
 .section {
   background-color: white;
   padding: 25px;
-  width: 50%;
+  width: 35%;
   box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -73,7 +65,8 @@ code {
 }
 
 .para {
-  font-size: 16px "Open Sans",Arial,sans-serif;
+  font-family: "Open Sans",Arial,sans-serif;
+  font-size: 1px "Open Sans",Arial,sans-serif;
   color: #707070;
   margin: 16px 0px 24px;
   padding: 12px 0x 0x;
@@ -83,24 +76,20 @@ code {
   position: relative;
   text-align: center;
   color: rgb(255, 255, 255);
-  background-color: red;
+  background-color: #d70f64;
   padding: 1%;
   top: 10px;
-  height: 15%;
+  height: 100%;
   width: 100%;
   border-radius: 5px;
 }
 .buttonGetstarted:hover {
-  background-color: rgb(187, 0, 0);
-  transition-duration: 0.5s;
+  background-color: #a30949;
+  transition-duration: 0.5s; 
 }
 
 .section {
   position: absolute;
   top: 900px;
   left: 150px;
-}
-
-.photoWithText {
-  position: relative;
 }

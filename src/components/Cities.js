@@ -16,32 +16,32 @@ function Cities() {
           <li>
             <div className="w-64">
               <div className="grid grid-rows-1 grid-flow-col gap-7 citiesMargin">
-              <figure className="pp">
-                <img className="object-cover h-64 w-48 pp" src={cities[0]} alt="Laor"/>
+              <figure className="relative block h-full bg-no-repeat bg-center bg-cover">
+                <img className="object-cover h-64 w-48 min-h-[300px] min-w-[230px] citiesHover" src={cities[0]} alt="Laor"/>
                 <figcaption className="relative bottom-1/4 text-4xl font-slim text-white px-1">
                   Lahore
                 </figcaption>
               </figure>
-              <figure className="pp">
-                <img className="object-cover h-64 w-48 pp" src={cities[1]} alt="Laor" />
+              <figure className="relative block h-full bg-no-repeat bg-center bg-cover">
+                <img className="object-cover h-64 w-48 min-h-[300px] min-w-[230px] citiesHover" src={cities[1]} alt="Laor" />
                 <figcaption className="relative bottom-1/4 text-4xl font-slim text-white px-1">
                   karachi
                 </figcaption>
               </figure>
-              <figure className="pp">
-                <img className="object-cover h-64 w-48 pp" src={cities[2]} alt="Laor" />
+              <figure className="relative block h-full bg-no-repeat bg-center bg-cover">
+                <img className="object-cover h-64 w-48 min-h-[300px] min-w-[230px] citiesHover" src={cities[2]} alt="Laor" />
                 <figcaption className="relative bottom-1/4 text-4xl font-slim text-white px-1">
                   Islamabad
                 </figcaption>
               </figure>
-              <figure className="pp">
-                <img className="object-cover h-64 w-48 pp" src={cities[3]} alt="Laor" />
+              <figure className="relative block h-full bg-no-repeat bg-center bg-cover">
+                <img className="object-cover h-64 w-48 min-h-[300px] min-w-[230px] citiesHover" src={cities[3]} alt="Laor" />
                 <figcaption className="relative bottom-1/4 text-4xl font-slim text-white px-1">
                   Faisalabad
                 </figcaption>
               </figure>
-              <figure className="pp">
-                <img className="object-cover h-64 w-48 pp" src={cities[4]} alt="Laor" />
+              <figure className="relative block h-full bg-no-repeat bg-center bg-cover">
+                <img className="object-cover h-64 w-48 min-h-[300px] min-w-[230px] citiesHover" src={cities[4]} alt="Laor" />
                 <figcaption className="relative bottom-1/4 text-4xl font-slim text-white px-1">
                   Rawalpindi
                 </figcaption>
