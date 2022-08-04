@@ -4,11 +4,11 @@ function Cities() {
   const cities = [require('./img/Lahore.webp'),require('./img/karachi.webp'),require('./img/Islamabad.webp'),require('./img/Faisalabad.webp'),require('./img/Rawalpindi.webp')]
   return (
     <>
-      <div className="relative  citiesMargin">
+      <div className="m-[60px] left-[10px] bottom-[460px]">
         <h2 className="absolute top-0 font-Open font-bold text-gray-300/25 px-12 fontCities">
           Cities
         </h2>
-        <span className="text-lg font-light leading-big ManyMore"> {/*many more has relative*/}
+        <span className="relative text-lg font-light leading-big ManyMore"> {/*many more has relative*/}
           Find us in these cities and many more!
         </span>
         {/* get the city names and pictures that have already been stored in a database use mongo probably */}
