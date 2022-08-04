@@ -1,7 +1,13 @@
 import React from "react";
 
 function Cities() {
-  const cities = [require('./img/Lahore.webp'),require('./img/karachi.webp'),require('./img/Islamabad.webp'),require('./img/Faisalabad.webp'),require('./img/Rawalpindi.webp')]
+  const cities = [
+    require("./img/Lahore.webp"),
+    require("./img/karachi.webp"),
+    require("./img/Islamabad.webp"),
+    require("./img/Faisalabad.webp"),
+    require("./img/Rawalpindi.webp"),
+  ];
   return (
     <>
       <div className="m-[60px] left-[10px] bottom-[460px]">
