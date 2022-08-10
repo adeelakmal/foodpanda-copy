@@ -27,19 +27,12 @@ code {
     min-width: 100%;
 }
 
-.citiesMargin {
-  margin-top: 10%!;
- 
-}
 
 .fontCities {
   font-size: 10rem!important;
 }
 
 .ManyMore {
-  position: relative!important;
-  top: 70px!important;
-  left: 53px;     
   font-size: 27px;
 }
 
