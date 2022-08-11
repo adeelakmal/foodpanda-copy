@@ -91,3 +91,19 @@ code {
   top: 900px;
   left: 150px;
 }
+.banner{
+  z-index: -1;
+}
+
+.img2{
+  background-image: url("./components/img/home-foodpanda-apps.png");
+  background-repeat: no-repeat;
+  display: block;
+  background-size: cover;
+  height: 100%;
+  width: 48%;
+  position: absolute;
+  margin: 0;
+  margin-left: 52%;
+  max-height: 615px;
+  }
