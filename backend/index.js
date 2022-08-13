@@ -23,17 +23,30 @@ const Storage = multer.diskStorage({
 const upload = multer({ storage: Storage });
 
 /* Configuring routes */
+
+// GET request to retrieve data
+app.get("/", (req, res) => {
+  CityModel.find({}, (err, items) => {
+    try {
+      res.render("../public/index", { items: items });
+    } catch {
+      throw err;
+    }
+  });
+});
+
+// POST request to add data to database
 app.post("/", upload.single("image"), (req, res, next) => {
   var city = {
     name: req.body.name,
     image: {
       data: "./img/" + req.file.filename,
-      contentType: "image/png",
+      contentType: "image/webp",
     },
   };
   CityModel.create(city, (err, item) => {
     try {
-      res.send("Image Uploaded!");
+      res.send("Image Uploaded!" + item);
     } catch {
       console.log(err);
     }

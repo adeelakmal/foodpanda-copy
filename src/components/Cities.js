@@ -11,7 +11,7 @@ function Cities() {
   return (
     <>
       <div className="absolute citiesMargin">
-        <h2 className="relative top-0 font-Open font-bold text-gray-300/25 px-12 fontCities">
+        <h2 className="relative top-0 font-Open font-bold text-blackG/20 px-12 fontCities">
           Cities
         </h2>
         <span className="absolute top-0 text-lg font-light leading-big pt-20 pl-20 ManyMore">
