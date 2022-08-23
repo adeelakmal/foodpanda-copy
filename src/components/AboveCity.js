@@ -11,9 +11,9 @@ export default function AboveCity() {
         </div>
       <div style={{zIndex: "1"}}>
       <img
-                    className="object-cover w-full h-[404px] z-20" 
-                    src={chef}
-                    alt="Laor"
+            className="object-cover w-full h-[404px] z-20" 
+            src={chef}
+            alt="Laor"
         />
       </div>
       <div className="absolute ml-44 border-0 max-w-[550px] bg-white bottom-12 text-black font-light">

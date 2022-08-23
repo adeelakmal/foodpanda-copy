@@ -5,6 +5,8 @@ import Section from "./components/Section";
 import Cities from "./components/Cities";
 import Apps from "./components/Apps";
 import AboveCity from "./components/AboveCity";
+import Office from "./components/Office";
+import Text from "./components/Text";
 
 function App() {
   return (
@@ -14,7 +16,12 @@ function App() {
       <Section />
       <AboveCity />
       <Cities />
-      <Apps />
+      <div className="relative">
+      <div className="relative"><Apps/></div>
+      <div className="absolute top-[640px]"><Office/></div>
+      <div className="absolute top-[1280px]"><Text/></div>
+      </div>
+      
     </>
   );
 }
