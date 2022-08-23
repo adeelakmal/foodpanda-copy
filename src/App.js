@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Section from "./components/Section";
 import Cities from "./components/Cities";
 import Apps from "./components/Apps";
-// import AboveCity from "./components/AboveCity";
+import AboveCity from "./components/AboveCity";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Alertbox />
       <Navbar />
       <Section />
-      {/* <AboveCity /> */}
+      <AboveCity />
       <Cities />
       <Apps />
     </>

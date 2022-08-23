@@ -28,14 +28,6 @@ code {
 }
 
 
-.fontCities {
-  font-size: 10rem!important;
-}
-
-.ManyMore {
-  font-size: 27px;
-}
-
 .chef {
   position: relative;
   top: 120px;
@@ -73,11 +65,10 @@ code {
 }
 
 .buttonGetstarted {
-  position: relative;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  background-color: #d70f64;
-  padding: 10px;
+  position: absolute;
+  right: 0;
+  color: rgb(255, 255, 255)!important;
+  background-color: #d70f64!important;
   width: 200px;
   border-radius: 5px;
 }
@@ -107,3 +98,4 @@ code {
   margin-left: 52%;
   max-height: 615px;
   }
+
