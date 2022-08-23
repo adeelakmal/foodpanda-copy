@@ -13,7 +13,7 @@ function Apps() {
             Put us in your ass
           </span>
         </div>
-        <div className="absolute w-full h-[400px] my-20 bg-pink banner">
+        <div className="absolute w-full h-[450px] my-20 bg-pink banner">
           <div className="mt-10 ml-20">
             <h1 className=" text-2xl font-Open text-white mb-2">
               Download the food and groceries you love
