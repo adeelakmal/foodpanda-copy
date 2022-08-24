@@ -16,12 +16,9 @@ function App() {
       <Section />
       <AboveCity />
       <Cities />
-      <div className="relative">
-      <div className="relative"><Apps/></div>
-      <div className="absolute top-[640px]"><Office/></div>
-      <div className="absolute top-[1280px]"><Text/></div>
-      </div>
-      
+      <Apps />
+      <Office />
+      <Text />
     </>
   );
 }
