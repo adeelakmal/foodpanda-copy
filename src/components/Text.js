@@ -6,7 +6,7 @@ const { height, width } = useWindowDimensions();
   {
   return (
     <>
-    <div className='relative font-Open p-24' style = {{maxWidth: "1280px"}}>
+    <div className='relative font-Open p-24 top-[100px]' style = {{maxWidth: "1280px"}}>
         <h1 className='font-bold py-3' style={{fontSize:'2rem'}}>Order food and groceries online from the best restaurants and shops on foodpanda</h1>
         <p>
         Are you hungry? Did you have a long and stressful day? Interested in getting a cheesy pizza delivered to your office or looking to avoid the weekly shop? Then foodpanda Pakistan is the right destination for you! foodpanda offers you a long and detailed list of the best restaurants and shops near you to help make your everyday easier. Our online food delivery service has it all, whether you fancy Indian, Pakistani or Afghan cuisine, foodpanda Pakistan has over 15,000 restaurants available in top cities like Islamabad, Lahore, Rawalpindi, and Karachi. Did you know you can order your groceries and more from foodpanda, too? Check out foodpanda shops for favourite partners like Al-Fatah, Greenvalley and more. Sit back and relax – let foodpanda Pakistan take the pressure off your shoulders.

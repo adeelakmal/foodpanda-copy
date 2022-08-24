@@ -7,7 +7,7 @@ export default function AboveCity() {
     <div className="relative mt-24">
         <div className="relative ml-12 bottom-1" style={{zIndex: "-1"}}>
           <div className="absolute text-lg font-light  pl-20 top-0" style = {{fontSize: "27px"}}> You prepare the food, we handle the rest</div>
-          <div className="relative top-0 font-Open font-bold leading-small text-blackG/20 px-12 pl-20" style={{fontSize: "10rem"}}>Partners</div>
+          <div className="relative bottom-6 font-Open font-bold leading-small text-blackG/10 px-12 pl-20 " style={{fontSize: "10rem",color:'#000000A'}}>Partners</div>
         </div>
       <div style={{zIndex: "1"}}>
       <img

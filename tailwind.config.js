@@ -18,6 +18,7 @@ module.exports = {
       white: "#ffffff",
       blackG: "#333333",
       gray: colors.coolGray,
+      silver: "#AAAAAAA0"
     },
     extend: {},
   },
