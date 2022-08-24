@@ -14,7 +14,7 @@ export default function Office() {
             Find us in these cities and many more! 
             </span>
         </div>
-    <div>
+    <div className='relative'>
         <img
             className="object-cover h-[404px] z-20" style = {{width: width}}
             src={office}
