@@ -7,6 +7,7 @@ import Apps from "./components/Apps";
 import AboveCity from "./components/AboveCity";
 import Office from "./components/Office";
 import Text from "./components/Text";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Apps />
       <Office />
       <Text />
+      <Footer />
     </>
   );
 }
