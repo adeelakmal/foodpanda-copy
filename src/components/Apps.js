@@ -7,13 +7,13 @@ function Apps() {
         {/* Make this thing into it's own component cuz its repetitive asf */}
         <div className="absolute citiesMargin">
           <h2
-            className="relative top-0 font-Open font-bold leading-small text-blackG/20 px-12"
+            className="relative top-0 font-Open font-bold leading-small text-blackG/10 px-12 pl-20"
             style={{ fontSize: "10rem" }}
           >
             App
           </h2>
           <span
-            className="absolute top-0 text-lg font-light leading-big pl-20"
+            className="absolute top-0 text-lg font-light leading-big px-12 pl-20"
             style={{ fontSize: "27px" }}
           >
             Put us in your ass

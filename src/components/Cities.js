@@ -12,7 +12,7 @@ function Cities() {
     <>
     <div className="mt-[10%] ml-12">
       <div className="relative">
-        <h2 className="relative top-0 font-Open font-bold leading-small text-blackG/20 px-12 pl-20" style={{fontSize: "10rem"}}>
+        <h2 className="relative bottom-6 font-Open font-bold leading-small text-blackG/10 px-12 pl-20" style={{fontSize: "10rem"}}>
           Cities
         </h2>
         <span className="absolute text-lg font-light  pl-20 top-0" style = {{fontSize: "27px"}}>
