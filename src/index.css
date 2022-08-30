@@ -65,12 +65,15 @@ code {
 }
 
 .buttonGetstarted {
-  position: absolute;
-  right: 0;
   color: rgb(255, 255, 255)!important;
   background-color: #d70f64!important;
   width: 200px;
   border-radius: 5px;
+}
+@media screen and (max-width: 800px) {
+  .buttonGetstarted {
+    width: 100%;
+  }
 }
 .buttonGetstarted:hover {
   background-color: #bd0652;
