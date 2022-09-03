@@ -8,6 +8,7 @@ import AboveCity from "./components/AboveCity";
 import Office from "./components/Office";
 import Text from "./components/Text";
 import Footer from "./components/Footer";
+import Test from "./components/Test";
 
 function App() {
   return (

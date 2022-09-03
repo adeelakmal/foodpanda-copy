@@ -1,39 +1,18 @@
 import React from "react";
-
+import useWindowDimensions from './Dimentions';
+import Test from "./Test";
 function Section() {
-  const style = `.img{background-image: url("https://images.deliveryhero.io/image/foodpanda/hero-home-pk.jpg?width=1400&height=896");
-  background-repeat: no-repeat;
-  display: block;
-  background-size: cover;
-  height: 100%;
-  width: 33%;
-  position: absolute;
-  margin: 0;
-  margin-left: 67%;
-  max-height: 615px;
-    }
-    .hero-sec{
-        width: 100%;
-        padding-bottom: 104px;
-        padding-left: 80px; 
-        padding-right: 80px; 
-        max-width: 1300px;
-    }
-    .hero-text{
-        max-width: 64%;
-    }
-    .hero-text h1{
-      line-height: 3.5rem;
-  }`;
+  const { width } = useWindowDimensions();
+  if (width>800)
+  {
   return (
     <>
-      <style>{style}</style>
       <div className="mb-6">
         <div className="img"></div>
           <div className="hero-sec relative pt-20">
             <div className="hero-text pt-20 pb-12">
               <h1 className="text-4xl font-Open font-light">
-                It's the food and groceries you love, delivered
+                It's the food and groceries you love, delivered {width}
               </h1>
           </div>
 
@@ -43,8 +22,6 @@ function Section() {
               type="text"
               placeholder="Search for anything..." 
             />
-
-
               <button className="flex-intial bg-pink text-white rounded-lg w-44">
                 Delivery
               </button>
@@ -57,6 +34,25 @@ function Section() {
       </div>
     </>
   );
+}
+else
+{
+  return (<>
+  <div className="mb-6">
+    <div className="img"></div>
+      <div className="hero-sec relative pt-20">
+        <div className="hero-text pt-20 pb-12">
+          <h1 className="text-4xl font-Open font-light">
+            It's the food and groceries you love, delivered
+          </h1>
+      </div>
+      
+      </div>
+    </div>
+    <Test/>
+</>
+);
+}
 }
 
 export default Section;

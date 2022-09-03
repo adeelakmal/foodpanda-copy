@@ -2,7 +2,7 @@ import React from "react";
 import useWindowDimensions from './Dimentions';
 
 function Cities() {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
   const cities = [
     require("./img/Lahore.webp"),
     require("./img/karachi.webp"),
