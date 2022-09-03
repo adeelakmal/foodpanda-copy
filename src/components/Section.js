@@ -30,29 +30,28 @@ function Section() {
       <style>{style}</style>
       <div className="mb-6">
         <div className="img"></div>
-        <div className="hero-sec relative pt-20">
-          <div className="hero-text pt-20 pb-12">
-            <h1 className="text-4xl font-Open font-light">
-              It's the food and groceries you love, delivered
-            </h1>
+          <div className="hero-sec relative pt-20">
+            <div className="hero-text pt-20 pb-12">
+              <h1 className="text-4xl font-Open font-light">
+                It's the food and groceries you love, delivered
+              </h1>
           </div>
 
-          <div className="w-3/4 grid grid-cols-5 gap-4 p-3 bg-white rounded-lg drop-shadow-lg">
+          <div className="md:w-3/4 w-[100%] flex gap-4 p-3 bg-white rounded-lg drop-shadow-lg">
             <input
-              className="col-span-3 p-4 border border-gray border-solid rounded-lg "
+              className="flex-auto w-[60%] col-span-3 p-4 border border-gray border-solid rounded-lg"
               type="text"
-              placeholder="Search for anything..."
+              placeholder="Search for anything..." 
             />
 
-            <div className="col-span-2 flex justify-around items-center">
-              <button className="bg-pink text-white mx-2 p-5 px-8 rounded-lg">
+
+              <button className="flex-intial bg-pink text-white rounded-lg w-44">
                 Delivery
               </button>
-              <span>or</span>
-              <button className="bg-pink text-white mx-2 p-5 px-8 rounded-lg">
+              <span className="flex-intial py-5">or</span>
+              <button className="flex-intial bg-pink text-white rounded-lg w-44">
                 Pick-Up
               </button>
-            </div>
           </div>
         </div>
       </div>

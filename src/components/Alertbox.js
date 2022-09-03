@@ -23,7 +23,7 @@ function Alertbox() {
               </svg>
               <h3 className="text-xl font-bold">Do you need a business account?</h3>
               <button className="m-2 p-3 border-solid rounded-lg border font-semibold text-sm">
-                SIGN UP NOW {count}
+                SIGN UP NOW 
               </button>
             </div>
       </div>
