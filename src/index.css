@@ -124,4 +124,15 @@ code {
   margin-left: 52%;
   max-height: 615px;
   }
-
+ 
+  /* CITIES STYLE */
+  .scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  .scrollmenu figure {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+  }
