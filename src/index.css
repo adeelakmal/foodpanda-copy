@@ -86,7 +86,9 @@ code {
   margin: 16px 0px 24px;
   padding: 12px 0x 0x;
 }
-
+.setPink {
+  color: #d70f64!important;
+}
 .buttonGetstarted {
   color: rgb(255, 255, 255)!important;
   background-color: #d70f64!important;

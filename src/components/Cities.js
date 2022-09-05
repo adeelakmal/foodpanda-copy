@@ -2,7 +2,7 @@ import React from "react";
 import useWindowDimensions from './Dimentions';
 
 function Cities() {
-  const { width } = useWindowDimensions();
+  const { height, width } = useWindowDimensions();
   const cities = [
     require("./img/Lahore.webp"),
     require("./img/karachi.webp"),
@@ -31,7 +31,7 @@ function Cities() {
             <div className="grid grid-rows-5 grid-flow-col gap-0 md:grid-rows-3">
               <figure className="relative block h-full bg-no-repeat bg-center bg-cover">
                 <img
-                  className="object-cover h-[272px]  min-h-[150px] min-w-[100px] " 
+                  className="object-cover h-[272px]  min-h-[150px] min-w-[100px]" 
                   src={cities[0]}
                   alt="Laor"
                 />
@@ -115,6 +115,7 @@ function Cities() {
                 <figcaption className="relative bottom-1/4 text-4xl font-slim text-white px-1">
                   Lahore
                 </figcaption>
+                <h1 className="absolute font-Open font-extrabold fw-96 setPink bottom-[0px]" style={{fontSize: "200px"}}>L</h1>
               </figure>
               <figure className="relative block h-full bg-no-repeat bg-center bg-cover">
                 <img
