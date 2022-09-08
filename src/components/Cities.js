@@ -33,54 +33,56 @@ function Cities() {
         <div className="relative bottom-44" style={{ zIndex: "0" }}>
           <ul className="mt-44 mx-20">
             <li>
-              <div className="grid grid-flow-col gap-4 gird-rows-1 scrollmenu md:grid-flow-row lg:grid-cols-5 md:grid-cols-4">
-                <figure className="relative block h-full bg-no-repeat bg-center bg-cover">
+              <div className="grid grid-flow-col gap-x-5 gird-rows-1 scrollmenu md:grid-flow-row lg:grid-cols-5 md:grid-cols-4">
+                <figure className="relative block bg-no-repeat bg-center bg-cover min-w-[150px] overflow-hidden">
                   <img
-                    className="object-cover h-[272px]  min-h-[150px] min-w-[100px] "
+                    className="object-cover h-[272px]"
                     src={cities[0]}
                     alt="Laor"
                   />
-                  <figcaption className="relative bottom-1/4 text-4xl font-slim text-white px-1">
+                  <figcaption className="relative bottom-1/4 text-2xl font-bold text-white px-1">
                     Lahore
                   </figcaption>
+                  <button className="fwd relative">BUTON</button>
+                  <figcaption className="big relative">L</figcaption>
                 </figure>
-                <figure className="relative block h-full bg-no-repeat bg-center bg-cover">
+                <figure className="relative block bg-no-repeat bg-center bg-cover min-w-[150px]">
                   <img
-                    className="object-cover h-[272px]  min-h-[150px] min-w-[100px] "
+                    className="object-cover h-[272px]"
                     src={cities[1]}
                     alt="Laor"
                   />
-                  <figcaption className="relative bottom-1/4 text-4xl font-slim text-white px-1">
-                    karachi
+                  <figcaption className="relative bottom-1/4 text-2xl font-bold text-white px-1">
+                    Karachi
                   </figcaption>
                 </figure>
-                <figure className="relative block h-full bg-no-repeat bg-center bg-cover">
+                <figure className="relative block bg-no-repeat bg-center bg-cover min-w-[150px]">
                   <img
-                    className="object-cover h-[272px]  min-h-[150px] min-w-[100px]  "
+                    className="object-cover h-[272px]"
                     src={cities[2]}
                     alt="Laor"
                   />
-                  <figcaption className="relative bottom-1/4 text-4xl font-slim text-white px-1">
+                  <figcaption className="relative bottom-1/4 text-2xl font-bold text-white px-1">
                     Islamabad
                   </figcaption>
                 </figure>
-                <figure className="relative block h-full bg-no-repeat bg-center bg-cover">
+                <figure className="relative block bg-no-repeat bg-center bg-cover min-w-[150px]">
                   <img
-                    className="object-cover h-[272px]  min-h-[150px] min-w-[100px]  "
+                    className="object-cover h-[272px]"
                     src={cities[3]}
                     alt="Laor"
                   />
-                  <figcaption className="relative bottom-1/4 text-4xl font-slim text-white px-1">
+                  <figcaption className="relative bottom-1/4 text-2xl font-bold text-white px-1">
                     Faisalabad
                   </figcaption>
                 </figure>
-                <figure className="relative block h-full bg-no-repeat bg-center bg-cover">
+                <figure className="relative block bg-no-repeat bg-center bg-cover min-w-[150px]">
                   <img
-                    className="object-cover h-[272px]  min-h-[150px] min-w-[100px]  "
+                    className="object-cover h-[272px]"
                     src={cities[4]}
                     alt="Laor"
                   />
-                  <figcaption className="relative bottom-1/4 text-4xl font-slim text-white px-1">
+                  <figcaption className="relative bottom-1/4 text-2xl font-bold text-white px-1">
                     Rawalpindi
                   </figcaption>
                 </figure>

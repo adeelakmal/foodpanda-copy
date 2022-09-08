@@ -138,3 +138,46 @@ code {
     color: white;
     text-decoration: none;
   }
+
+figure{
+  height: 272px;
+  overflow: hidden;
+  /* color: #d70f64; */
+  background: #d70f64;
+}
+
+img{
+  transition: all 0.3s;
+
+}
+
+figure:hover img{
+  opacity: 85%;
+  transform: scale(1.05);
+}
+.fwd{
+  opacity:0;
+  background: rgb(215 15 100);
+  bottom: 40%;
+  left: 100%;
+  transform: translateX(-100%);
+  padding: 20px 10px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+figure:hover .fwd{
+  opacity:1;
+}
+figure:hover .big{
+  opacity:0.5;
+}
+.big {
+  opacity: 0;
+  font-weight: bold;
+  color: rgb(215 15 100);
+  bottom: 100%;
+  right: 5%;
+  text-align: left;
+  font-size: 140px;
+  transition: all 0.3s;
+}
